@@ -24,21 +24,6 @@
   $ git branch -v
   ```
 
-* **Savoir quel shell est utilisé**:
-
-  ```
-  $ echo $SHELL
-  ```
-* **Ajouter un alias**:
-
-  Recupérer le lien du dossier racine
-  ```
-  $ pwd
-  ```
-  Se rendre dans ce dossier et ouvrir le fichier .zshrc (Ctrl +H pour afficher les fichiers cachés dans Linux)
-  Repérer dans quel fichier sont chargés les alias
-  Ouvrir le fichier correspondant (souvent .aliases)
-
 * **Remettre à jour un repo par rapport à un autre**:
 
   ```
