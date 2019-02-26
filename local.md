@@ -5,6 +5,13 @@
   ```
   $ echo $SHELL
   ```
+
+* **Liste des shells**:
+
+  ```
+  $ cat /etc/shells
+  ```
+
 * **Ajouter un alias**:
 
   Recupérer le lien du dossier racine
@@ -23,13 +30,19 @@
 
   La liste se trouve dans le dossier /bin de l'app.
 
-* **Ecoutez les paths ?!?**:
+* **Ecoutez les paths**:
 
   ```
   $ echo $PATH
   ```
 
-  Signifie l'ordre de recherche des binaires ?!?
+  ou pour que ce soit plus lisible :
+
+  ```
+  $ echo $PATH | tr : \\n
+  ```
+
+  Signifie l'ordre dans lequel le système cherche une variable dossier par dossier.
 
 * **Liens symboliques**:
 
@@ -48,7 +61,7 @@
   $ cd dividi
   ```
 
-  Avoir la liste de tous les liens symboliques :
+  Avoir la liste de tous les liens symboliques (donne en réalité tous les droits d'exécution des scripts)
   ```
   $ ls -l
   ```
