@@ -22,6 +22,8 @@ Dossier external-src comporte tout le code source extérieur aux addons
 
 Les sous-dossiers sont des dossiers de la communauté odoo
 
+Initialiser le dossier par docky init
+
 Lancement de l'image docker avec docky
 
   ```
@@ -36,3 +38,5 @@ Taper la commande pour lancer odoo
   ```
   $ odoo
   ```
+
+Le dossier songs, et le fichier migration.yml sert à gérer les scripts de migration
