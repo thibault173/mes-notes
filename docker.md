@@ -1,4 +1,4 @@
-## Heroku commandes
+## Docker commandes
 
 * **Liste des containers en cours**:
 
