@@ -40,3 +40,17 @@ Taper la commande pour lancer odoo
   ```
 
 Le dossier songs, et le fichier migration.yml sert à gérer les scripts de migration
+
+## Ajouter des modules odoo
+
+Liste des modules possibles
+  ```
+  $ ak suggest -xi oca
+  ```
+
+Ajouter des liens symboliques
+    ```
+  $ ak build --links
+  ```
+
+Relance dans firefox grace à l'addon odoo debug : Click on "Update app list"
