@@ -1,0 +1,2 @@
+- utiliser des jobs dans les
+- ne pas coder plus que nécessaire
