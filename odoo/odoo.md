@@ -54,3 +54,17 @@ Ajouter des liens symboliques
   ```
 
 Relance dans firefox grace à l'addon odoo debug : Click on "Update app list"
+
+## Dévelopement
+
+Lancer la console python
+
+```
+odoo shell --workers=0
+```
+
+Lancer postgresql lorsque docker est lancé
+
+```
+psql -h db db
+```
